@@ -1,0 +1,10 @@
+# theme = "gruvbox_dark_hard"
+# theme = "noctis"
+theme = "terafox"
+
+[editor]
+mouse = true
+bufferline = "multiple"
+
+[editor.file-picker]
+hidden = false

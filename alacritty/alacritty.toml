@@ -1,0 +1,144 @@
+[bell]
+animation = "EaseOutExpo"
+duration = 0
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[[colors.indexed_colors]]
+color = "0xff8349"
+index = 16
+
+[[colors.indexed_colors]]
+color = "0xcb7985"
+index = 17
+
+[colors.bright]
+black = "0x4e5157"
+blue = "0x73a3b7"
+cyan = "0xafd4de"
+green = "0x8eb2af"
+magenta = "0xb97490"
+red = "0xeb746b"
+white = "0xeeeeee"
+yellow = "0xfdb292"
+
+[colors.normal]
+black = "0x2f3239"
+blue = "0x5a93aa"
+cyan = "0xa1cdd8"
+green = "0x7aa4a1"
+magenta = "0xad5c7c"
+red = "0xe85c51"
+white = "0xebebeb"
+yellow = "0xfda47f"
+
+[colors.primary]
+background = "0x152528"
+foreground = "0xe6eaea"
+
+[font]
+size = 14
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Light"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001BF"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BB"
+key = "Left"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002%"
+key = "D"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\""
+key = "D"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002\u001B[A"
+key = "K"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002\u001B[B"
+key = "J"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002\u001B[C"
+key = "L"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002\u001B[D"
+key = "H"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002z"
+key = "Equals"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002c"
+key = "T"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0070"
+key = "{"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002\u006e"
+key = "}"
+mods = "Command|Shift"
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+[[hints.enabled]]
+command = "open"
+regex = "(http:|https:)"
+
+[hints.enabled.mouse]
+enabled = true
+
+[scrolling]
+history = 100000
+multiplier = 1
+
+[selection]
+save_to_clipboard = true
+
+[shell]
+args = ["new-session"]
+program = "/opt/homebrew/bin/tmux"
+
+[window]
+dynamic_padding = false
+opacity = 0.98
+dynamic_title = true
+
+[window.padding]
+x = 0
+y = 0

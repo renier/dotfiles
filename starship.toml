@@ -1,0 +1,36 @@
+add_newline = false
+
+format = "$directory$git_branch$git_state$git_status$character"
+# right_format = "$golang$nodejs$python$ruby$terraform$kubernetes$aws$cmd_duration"
+right_format = "$kubernetes$aws"
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style) '
+symbol = ''
+
+[helm]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[aws]
+format = '[$symbol($profile )(\[$duration\] )]($style)'
+symbol = '☁️ '
+
+[golang]
+symbol = ' '
+format = '[$symbol($version )]($style)'
+
+[kubernetes]
+disabled = false
+style = '#E3F2FD bold'
+format = '[$symbol$context]($style) '
+symbol = '⎈ '
+
+[[kubernetes.contexts]]
+context_pattern = "^arn:aws:eks:.*:cluster/(?P<cluster>.*)"
+context_alias = "$cluster"
+
+[python]
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
