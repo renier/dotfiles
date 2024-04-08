@@ -91,7 +91,7 @@ mods = "Command|Shift"
 
 [[keyboard.bindings]]
 chars = "\u0002z"
-key = "Equals"
+key = "+"
 mods = "Command|Shift"
 
 [[keyboard.bindings]]
