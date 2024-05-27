@@ -16,7 +16,7 @@ disabled = true
 
 [aws]
 format = '[$symbol($profile )(\[$duration\] )]($style)'
-symbol = '☁ '
+symbol = ' '
 
 [golang]
 symbol = ' '
@@ -27,7 +27,7 @@ disabled = false
 style = '#E3F2FD bold'
 # format = '[$symbol$context (\($namespace\))]($style) '
 format = '[$symbol$context]($style) '
-symbol = '⎈ '
+symbol = '󰠳 '
 
 [[kubernetes.contexts]]
 context_pattern = "^arn:aws:eks:.*:cluster/(?P<cluster>.*)"
