@@ -5,3 +5,5 @@ gtk-2.0
 nvim*
 wireshark
 glab-cli/config.yml
+glab-cli/recover
+gh/hosts.yml
