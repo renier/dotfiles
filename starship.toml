@@ -1,9 +1,9 @@
 add_newline = false
 command_timeout = 1000
 
-format = "$directory$git_branch$git_state$git_status$character"
+format = "$directory$git_branch$git_state$git_status$aws$kubernetes$line_break$character"
 # right_format = "$golang$nodejs$python$ruby$terraform$kubernetes$aws$cmd_duration"
-right_format = "$kubernetes$aws"
+right_format = ""
 
 [git_branch]
 format = '[$symbol$branch(:$remote_branch)]($style) '
